@@ -16,6 +16,41 @@ div.browsehappy p, div.election2014banner p {
     font-size: 18px;
     margin-top: 35px;
 }
+#top-links {
+    
+}
+#top-links .communities {
+    
+}
+#top-links .communities ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+#top-links .communities ul li {
+    float: left;
+    display: block;
+    margin-right: 10px;
+}
+#top-links .communities ul li a {
+    
+}
+#logo-area .bunch-of-buttons {
+    display: none;
+}
+#logo-area .login-and-stuff ul {
+    list-style: none;
+}
+#logo-area .login-and-stuff ul li {
+    float: right;
+}
+#logo-area .social-media ul {
+    list-style: none;
+}
+#logo-area .social-media ul li {
+    float: right;
+}
 header {
     display: none;
 }
@@ -26,7 +61,9 @@ header .container, section .container {
     
 }
 @media only screen and (min-width: 767px) {
-    
+    #logo-area .bunch-of-buttons {
+        display: block;
+    }
 }
 @media only screen and (min-width: 992px) {
     
@@ -63,7 +100,11 @@ nav.navbar-default {
     color: #FFFFFF;
 }
 header .global-nav {
+    padding: 5px 0 0;
     text-align: center;
+}
+header .global-nav ul {
+    margin-bottom: 0;
 }
 header .global-nav ul.list-inline > li {
     padding-left: 0;
@@ -73,10 +114,10 @@ header .global-nav ul li {
 }
 header .global-nav ul li a, header .global-nav ul li a:visited {
     background-color: #337ab7;
-    color: rgba(41, 50, 60, 1);
+    color: #FFFFFF;
     display: block;
     float: left;
-    padding: 0.6em 1em;
+    padding: 0.3em 1em;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 14px;
@@ -86,6 +127,9 @@ header .global-nav ul li a.high-court, header .global-nav ul li a.high-court:vis
 }
 header .global-nav ul li a:hover {
     color: #FFFFFF;
+}
+h1 span  {
+    display: none;
 }
 @media only screen and (min-width: 768px) {
     h1 {
